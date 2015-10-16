@@ -1,0 +1,32 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:48:20
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 18:07:12
+**************************************************************/
+
+class RecruiterDataMainService extends BaseUserCompanyDataMainService {
+
+	_type = 'recruiter';
+	_entityType = 'Recruiter';
+	_title = 'Recruiters';
+	_fieldsetName = 'recruiter_data_fieldset_form';
+
+
+	getTitleParamsView : function (entity) {
+		return _super(entity);
+	}
+
+	public getElementEntity : function (id) {
+		var router = serviceLocator.get('Router');
+		var store = serviceLocator.get('ServiceManager').get('store_manager_main_service');
+
+		store.request(router.build('/recruiter/view', { 'recruiter_url' : id }));
+	}
+
+}

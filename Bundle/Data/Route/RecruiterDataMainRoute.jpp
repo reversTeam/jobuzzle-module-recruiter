@@ -1,0 +1,24 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:45:41
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:56:17
+**************************************************************/
+
+class RecruiterDataMainRoute extends BaseUserCompanyDataMainRoute {
+
+	name = 'recruiter';
+
+	baseName = 'Recruiter';
+	baseRoute = '{recruiters}';
+	baseController = 'recruiter_data_main_controller';
+
+	paramName = 'recruiter_url';
+	paramRegex = '[a-z0-9-]+';
+
+}
