@@ -1,0 +1,19 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:41:45
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:55:28
+**************************************************************/
+
+class RecruiterDataEditForm extends BaseUserCompanyDataEditForm {
+
+	public _title = 'form.title.recruiter.edit';
+	public _url = '/recruiter/view/update';
+	public _paramNameRoute = 'recruiter_url';
+
+}

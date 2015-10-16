@@ -1,0 +1,22 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 16:01:49
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:57:10
+**************************************************************/
+
+class RecruiterDataTemplateDeleteView extends BaseUserCompanyDataTemplateDeleteView {
+
+	_class = 'recruiter';
+	_elementType = 'Recruiter';
+
+	display : function () {
+		return <div>Delete Recruiter</div>;
+	}
+
+}

@@ -1,0 +1,20 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:42:18
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:55:40
+**************************************************************/
+
+class RecruiterDataFieldsetForm extends BaseUserCompanyDataFieldsetForm {
+
+	public _formName = 'Recruiter';
+	public _createFormName = 'recruiter_data_create_form';
+	public _searchFormName = 'recruiter_data_search_form';
+	public _editFormName = 'recruiter_data_edit_form';
+
+}

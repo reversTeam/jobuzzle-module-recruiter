@@ -1,0 +1,20 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:53:08
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:59:12
+**************************************************************/
+
+class RecruiterDataViewTemplate extends BaseUserCompanyDataViewTemplate {
+
+	public _serviceName = 'recruiter_data_main_service';
+	public _viewClassName = 'RecruiterDataTemplateViewView';
+	public _type = 'Recruiter';
+	public _route = 'recruiter';
+
+}

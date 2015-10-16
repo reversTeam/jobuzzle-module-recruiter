@@ -1,0 +1,26 @@
+###############################################################
+#     ####         #                               #          # Jobuzzle - Copyright All rights reserved
+#     ####         #                               #          #
+#       ##  #####  ######  #     # ####### ####### #  #####   # @Author: revers
+#       ## #     # #     # #     #      #       #  # #     #  #
+#       ## #     # #     # #     #     #       #   # #     #  # @Date:   2015-10-16 15:09:53
+#       ## #     # #     # #     #    #       #    # #     #  #
+#       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
+#  ####### #     # #     # #     #  #       #      # #        #
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-16 17:54:08
+###############################################################
+
+invokables :
+	recruiter_data_timeline_template 	: Data/Template/RecruiterDataTimelineTemplate
+
+	recruiter_data_search_template		: Data/Template/RecruiterDataSearchTemplate
+	recruiter_data_view_template		: Data/Template/RecruiterDataViewTemplate
+	recruiter_data_create_template		: Data/Template/RecruiterDataCreateTemplate
+	recruiter_data_update_template		: Data/Template/RecruiterDataUpdateTemplate
+	recruiter_data_delete_template		: Data/Template/RecruiterDataDeleteTemplate
+shared:
+	recruiter_data_search_template		: true
+	recruiter_data_view_template		: true
+	recruiter_data_create_template		: true
+	recruiter_data_update_template		: true
+	recruiter_data_delete_template		: true
