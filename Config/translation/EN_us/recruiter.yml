@@ -7,12 +7,18 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-06 11:56:35
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-09 14:17:45
 ###############################################################
 
-Recruiters: 'Recruiters'
-view: '{{url}}'
-update: '{{url}}'
+page:
+	title:
+		Recruiters: 'Recruiters'
+		view: '{{url}}'
+		update: '{{url}}'
 
 timeline:
 	recruiter: Recruiter
+
+view:
+	actions:
+		edit: Edit recruiter
