@@ -7,13 +7,13 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:58:09
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-21 15:30:36
 **************************************************************/
 
 class RecruiterDataDeleteTemplate extends BaseUserCompanyDataDeleteTemplate {
 
-	_viewClassName = 'RecruiterDataTemplateDeleteView';
-	_type = 'Recruiter';
-	_route = 'recruiter';
+	public _viewClassName = 'RecruiterDataTemplateDeleteView';
+	public _type = 'Recruiter';
+	public _serviceName = 'recruiter_data_main_service';
 
 }

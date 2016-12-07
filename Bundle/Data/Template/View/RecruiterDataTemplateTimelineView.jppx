@@ -7,10 +7,16 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-06 11:57:08
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-21 13:04:57
 **************************************************************/
 
 class RecruiterDataTemplateTimelineView extends BaseUserCompanyDataTemplateTimelineView {
+
+	public getClassElement : function () {
+		var classElement = _super();
+		classElement.push('recruiter');
+		return classElement;
+	}
 
 	public displayFooter : function () {
 		var t = serviceLocator.get('Translator');

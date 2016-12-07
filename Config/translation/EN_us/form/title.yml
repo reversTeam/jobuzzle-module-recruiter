@@ -7,10 +7,11 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-16 17:51:50
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 15:06:58
 ###############################################################
 
 recruiter:
 	create: 'Create a recruiter'
 	edit : 'Edit a recruiter'
 	search : 'Search recruiter'
+	delete: Delete recruiter
